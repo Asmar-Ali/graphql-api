@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon app.js"
@@ -16,6 +17,9 @@
   "dependencies": {
     "body-parser": "^2.2.0",
     "express": "^5.1.0",
+    "graphiql": "^4.1.0",
+    "graphql": "^16.11.0",
+    "graphql-http": "^1.22.4",
     "morgan": "^1.10.0"
   }
 }
